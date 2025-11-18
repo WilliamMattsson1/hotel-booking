@@ -1,6 +1,7 @@
 import ExclusiveOffers from '../components/ExclusiveOffers'
 import FeatureDestination from '../components/FeatureDestination'
 import Hero from '../components/Hero'
+import Testimonial from '../components/Testimonial'
 
 const Homepage = () => {
     return (
@@ -8,6 +9,7 @@ const Homepage = () => {
             <Hero />
             <FeatureDestination />
             <ExclusiveOffers />
+            <Testimonial />
         </>
     )
 }
